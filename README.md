@@ -2,10 +2,12 @@ For re-producing 3D figures in our paper, titled "Out-distribution Training Conf
 
 # Summary
 
-We argue and empirically showed that a minimally-modified vanilla CNN, which a vanilla CNN with an extra class added to its output-- call it as Augmented CNN, can be a more robust ML model through detecting **unseen OOD sets** and some types of adversarial examples, **if it is trained on an appropriate Out-of-Distribution set.** 
+We argue and empirically showed that a minimally-modified vanilla CNN, which a vanilla CNN with an extra class added to its output-- call it as Augmented CNN, can be a more robust ML model through detecting **unseen OOD sets** and some types of **adversarial examples**, **if it is trained on an appropriate Out-of-Distribution set.** 
 
 
-To show how such an A-CNN can be more robust to unknown samples (e.g. OODs ) or adversaries, we empirically demonstrate that its feature space learns more flexible representations, where OOD samples are disentangled from in-distribution sub-manifolds. In below, the feature space of 3 CNNs for a given in-distribution task (CIFAR-10) are exhibited; I) vanilla CNN; II) A-CNN* (trained a proper OOD set--CIFAR-100), and III) A-CNN (trained on an improper training OOD set--SVHN). In each row, an OOD set or a set of adversarial examples, along with the in-distribution samples, are represented in the feature spaces of these CNN. Note that how the unseen OOD samples (SVHN) and a portion of unseen adversarial examples are disentangled from the in-distribution sub-manifolds in the feature space of A-CNN*.
+To show some evidences on the potential robustness of an A-CNN to unknown samples (e.g. OODs ) or adversaries, we empirically demonstrate that its feature space learns more *flexible representations*, where OOD samples are disentangled from in-distribution sub-manifolds. But again, **A-CNN should be trained on a proper OOD set.**
+
+In below, the feature space of 3 CNNs for a given in-distribution task (CIFAR-10) are visually compared; I) vanilla CNN; II) A-CNN* (trained a proper OOD set--CIFAR-100), and III) A-CNN (trained on an improper training OOD set--SVHN). In each row, an OOD set or a set of adversarial examples, along with the in-distribution samples, are represented in the feature spaces of these CNNs. Note that how the unseen OOD samples (SVHN) and a portion of unseen adversarial examples are disentangled from the in-distribution sub-manifolds in the feature space of **A-CNN***.
 
 
 | OOD set      	|	Vanilla CNN	|	A-CNN* (C100)	|	A-CNN (SVHN)	|
