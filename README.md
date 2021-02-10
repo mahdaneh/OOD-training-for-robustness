@@ -1,4 +1,4 @@
-For re-producing 3D figures in our paper, titled "Out-distribution Training Confers Robustness to Deep Neural Networks ", published in (DSML)[https://dependablesecureml.github.io/2018/index.html] 2018 (co-located with 48th IEEE/IFIP International Conference on Dependable Systems and Networks).
+For re-producing 3D figures in our paper, titled "Out-distribution Training Confers Robustness to Deep Neural Networks ", published in [DSML](https://dependablesecureml.github.io/2018/index.html) 2018 (co-located with 48th IEEE/IFIP International Conference on Dependable Systems and Networks).
 
 # Summary
 
@@ -19,5 +19,5 @@ To show how such an A-CNN can be more robust to unknown samples (e.g. OODs ) or 
 ## How to recognize an OOD set is proper?
 In another paper, We hypothesize that an OOD set is proper if it can cover (protect) in-distribution's sub-manifolds, then propose 3 metrics for recognizing a protective OOD set.
 
-Please visit our another paper, published in ECAI2020, (read here)[http://ecai2020.eu/papers/1553_paper.pdf] or (watch here)[https://screencast-o-matic.com/watch/cYjhc0Gng3]. Its implemented code (in python) can be found (here)[https://github.com/mahdaneh/OOD_set_Metrics]
+Please visit our another paper, published in ECAI2020, [read here](http://ecai2020.eu/papers/1553_paper.pdf) or [watch here](https://screencast-o-matic.com/watch/cYjhc0Gng3). Its implemented code (in python) can be found [here](https://github.com/mahdaneh/OOD_set_Metrics).
 
